@@ -1,4 +1,4 @@
-export type LedSwitch = {
+export type LedSwitch ={
   "version": "0.1.0",
   "name": "led_switch",
   "instructions": [
@@ -65,7 +65,7 @@ export type LedSwitch = {
     }
   ],
   "metadata": {
-    "address": "HZM1oQFUvSP7sBLHK6Kn7AjkmeA1EZShFVhuyCTbRcYu"
+    "address": "F1jhXp9qCRWfUjEj1Gsw48zrfAtE78FtWxT6grQPy2L1"
   }
 };
 
@@ -136,6 +136,6 @@ export const IDL: LedSwitch ={
     }
   ],
   "metadata": {
-    "address": "HZM1oQFUvSP7sBLHK6Kn7AjkmeA1EZShFVhuyCTbRcYu"
+    "address": "F1jhXp9qCRWfUjEj1Gsw48zrfAtE78FtWxT6grQPy2L1"
   }
-};
+}

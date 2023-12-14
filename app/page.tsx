@@ -36,7 +36,7 @@ export default function Home() {
     );
 
     const getState = async () => {
-      const gameData = await LED_SWITCH_PROGRAM.account.LedSwitch.fetch(
+      const gameData = await LED_SWITCH_PROGRAM.account.ledSwitch.fetch(
         LED_SWITCH_PDA,
       );
       setLedState(gameData);
