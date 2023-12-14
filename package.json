@@ -11,18 +11,16 @@
     "proxy": "local-ssl-proxy --source 3001 --target 3000"
   },
   "dependencies": {
+    "@coral-xyz/anchor": "0.28.0",
     "@next/font": "latest",
     "@solana/pay": "^0.2.4",
     "@solana/spl-token": "^0.3.7",
-    "@coral-xyz/anchor": "0.28.0",
     "@solana/wallet-adapter-react": "^0.15.28",
     "@solana/wallet-adapter-react-ui": "^0.9.27",
     "@solana/wallet-adapter-wallets": "^0.19.11",
     "@solana/web3.js": "^1.73.2",
     "@types/node": "18.11.18",
     "@types/qrcode": "^1.5.0",
-    "@types/react": "18.0.27",
-    "@types/react-dom": "18.0.10",
     "bigint-buffer": "^1.1.5",
     "bignumber.js": "^9.1.1",
     "borsh": "^0.7.0",
@@ -35,6 +33,8 @@
     "sha256": "^0.2.0"
   },
   "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.17",
     "autoprefixer": "^10.4.13",
     "encoding": "^0.1.13",
     "local-ssl-proxy": "^1.3.0",
