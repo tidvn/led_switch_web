@@ -52,7 +52,7 @@ export type ledSwitch ={
   ],
   "accounts": [
     {
-      "name": "LedSwitch",
+      "name": "ledSwitch",
       "type": {
         "kind": "struct",
         "fields": [
@@ -123,7 +123,7 @@ export const IDL: ledSwitch ={
   ],
   "accounts": [
     {
-      "name": "LedSwitch",
+      "name": "ledSwitch",
       "type": {
         "kind": "struct",
         "fields": [
