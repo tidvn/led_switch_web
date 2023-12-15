@@ -25,7 +25,7 @@ export default function Home() {
       (updatedAccountInfo, context) => {
         {
           const decoded = LED_SWITCH_PROGRAM.coder.accounts.decode(
-            "ledSwitch",
+            "LedSwitch",
             updatedAccountInfo.data
           )
           setLedState(decoded);
