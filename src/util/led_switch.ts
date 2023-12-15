@@ -1,4 +1,4 @@
-export type LedSwitch ={
+export type ledSwitch ={
   "version": "0.1.0",
   "name": "led_switch",
   "instructions": [
@@ -69,7 +69,7 @@ export type LedSwitch ={
   }
 };
 
-export const IDL: LedSwitch ={
+export const IDL: ledSwitch ={
   "version": "0.1.0",
   "name": "led_switch",
   "instructions": [
